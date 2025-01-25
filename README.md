@@ -1,3 +1,5 @@
+![Hero Image Screenshot](src/components/SearchBar/background_search_desktop.jpg)
+
 # Ravenous
 
 Ravenous is a web application designed to help users find local businesses based on their preferences. It allows users to search for businesses by category, view detailed information, and explore business locations on a map.
