@@ -1,0 +1,75 @@
+.business {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15px;
+    /* text-align: center; */
+    transition: transform 0.2s ease-in-out;
+    width: 350px;
+    height: 500px;
+  }
+
+  .businessInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    height: 50%;
+  }
+
+  h2 {
+    margin: 10px;
+  }
+
+  p {
+    margin: 10px;
+  }
+
+  .businessAddress {
+    text-align: left;
+    width: auto;
+  }
+
+  .businessCategory {
+    width: auto;
+    text-align: right;
+  }
+  
+  .business:hover {
+    transform: scale(1.05);
+  }
+  
+  .image {
+    /* width: 100%; */
+    width: 350px;
+    height: 350px; 
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .businessName {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .category {
+    font-size: 22px;
+    font-weight: bold;
+    color: #c29b52;
+  }
+
+  .rating {
+    font-size: 18px;
+    font-weight: bold;
+    color: #c29b52;
+  }
